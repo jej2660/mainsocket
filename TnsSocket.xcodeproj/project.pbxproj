@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B058C48C254AD13F0096D78C /* sock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B058C48B254AD13F0096D78C /* sock.cpp */; };
 		B0AAFC052546CCF100540C34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0AAFC042546CCF100540C34 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B058C48A254AD08A0096D78C /* sock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sock.h; sourceTree = "<group>"; };
+		B058C48B254AD13F0096D78C /* sock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sock.cpp; sourceTree = "<group>"; };
 		B0AAFC012546CCF100540C34 /* TnsSocket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TnsSocket; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AAFC042546CCF100540C34 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B0AAFC042546CCF100540C34 /* main.cpp */,
+				B058C48A254AD08A0096D78C /* sock.h */,
+				B058C48B254AD13F0096D78C /* sock.cpp */,
 			);
 			path = TnsSocket;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0AAFC052546CCF100540C34 /* main.cpp in Sources */,
+				B058C48C254AD13F0096D78C /* sock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
